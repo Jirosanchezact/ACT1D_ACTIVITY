@@ -2,202 +2,169 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jiro Sanchez - My 15 Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiro's Project | Products</title>
     <style>
-        /* CSS written simply for the project */
+        /* Basic Student Styles */
         body {
-            background-color: #f4fdf4; 
-            font-family: Arial, Helvetica, sans-serif;
             margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4fdf4; /* Light green background */
+            color: #333;
             text-align: center;
         }
 
-        /* The green header requested by Sir */
+        /* Simple Header */
         header {
             background-color: #2e7d32;
             color: white;
-            padding: 25px;
+            padding: 20px;
         }
 
-        /* Navigation menu */
+        /* Standard Navigation */
         nav {
             background-color: #1b5e20;
-            padding: 12px;
+            padding: 10px;
         }
 
         nav a {
             color: white;
             text-decoration: none;
-            margin-left: 15px;
-            margin-right: 15px;
+            margin: 0 15px;
             font-weight: bold;
         }
 
         nav a:hover {
-            color: yellow;
+            color: #ffff00;
+            text-decoration: underline;
         }
 
-        /* Main White Box for Products */
-        .container {
+        /* Content Area */
+        .content {
             width: 90%;
-            margin: 25px auto;
+            margin: 20px auto;
             background-color: white;
             padding: 20px;
             border: 2px solid #2e7d32;
-            border-radius: 10px;
         }
 
-        /* Table setup for items */
+        h2 {
+            color: #2e7d32;
+            text-decoration: underline;
+        }
+
+        /* Simple Table for Products */
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-top: 20px;
         }
 
         td {
-            border: 1px solid #cccccc;
+            border: 1px solid #ddd;
             padding: 15px;
-            width: 33.3%;
             vertical-align: top;
+            width: 33%;
         }
 
-        /* Making sure images fit the boxes */
-        img {
-            width: 140px;
-            height: 140px;
-            border: 1px solid #333;
-            margin-bottom: 10px;
+        td img {
+            width: 120px;
+            height: 120px;
+            border: 1px solid #2e7d32;
         }
 
-        .price-text {
-            color: #1b5e20;
+        .price {
             font-weight: bold;
-            font-size: 18px;
+            color: #1b5e20;
         }
 
+        /* Simple Footer */
         footer {
             background-color: #1b5e20;
             color: white;
             padding: 20px;
-            margin-top: 50px;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>JIRO SANCHEZ TECH STORE</h1>
-    <p>ICT Project - Section ACT-1D</p>
+    <h1>💻 Jiro Sanchez Store</h1>
 </header>
 
 <nav>
     <a href="home.html">Home</a>
     <a href="menu.html">Products</a>
-    <a href="about_us.html">About</a>
+    <a href="about_us.html">About Us</a>
     <a href="contacts.html">Contact</a>
+    <a href="contacts us.html">CONTACT US</a>
 </nav>
 
-<div class="container">
-    <h2>Product Catalog</h2>
-    <p>Welcome! Here are the 15 tech items I chose for my store project.</p>
+<div class="content">
+    <h2>Our Product Catalog</h2>
+    <p>Below are the gadgets available in my shop project.</p>
 
     <table>
         <tr>
             <td>
-                <img src="https://i.pinimg.com/736x/cd/cd/ab/cdcdabfb9b5259236eb5b6a7d4f17666.jpg"><br>
-                <b>Smartwatch Pro</b><br>
-                <span class="price-text">₱3,500</span>
+                <img src="https://i.pinimg.com/736x/cd/cd/ab/cdcdabfb9b5259236eb5b6a7d4f17666.jpg" alt="Smartwatch">
+                <br><strong>Smartwatch Pro</strong>
+                <p class="price">₱3,500</p>
             </td>
             <td>
-                <img src="https://i.pinimg.com/1200x/60/8d/6c/608d6c058b343450de0d83e97b301751.jpg"><br>
-                <b>Wireless Headphones</b><br>
-                <span class="price-text">₱2,800</span>
+                <img src="https://i.pinimg.com/1200x/60/8d/6c/608d6c058b343450de0d83e97b301751.jpg" alt="Headphones">
+                <br><strong>Wireless Headphones</strong>
+                <p class="price">₱2,800</p>
             </td>
             <td>
-                <img src="https://i.pinimg.com/736x/22/ca/96/22ca961ad2dff6ad9657e18cf4c1cbff.jpg"><br>
-                <b>Mini Drone</b><br>
-                <span class="price-text">₱5,500</span>
+                <img src="https://i.pinimg.com/736x/22/ca/96/22ca961ad2dff6ad9657e18cf4c1cbff.jpg" alt="Drone">
+                <br><strong>Mini Drone</strong>
+                <p class="price">₱5,500</p>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <img src="https://i.pinimg.com/736x/cf/6c/bd/cf6cbdfef030a8ce03702818d36ece19.jpg" alt="Robot">
+                <br><strong>AI Learning Bot</strong>
+                <p class="price">₱12,000</p>
+            </td>
+            <td>
+                <img src="https://i.pinimg.com/736x/11/1b/fa/111bfac99a261e36fadcc167be1667e0.jpg" alt="Speaker">
+                <br><strong>Bluetooth Speaker</strong>
+                <p class="price">₱2,200</p>
+            </td>
+            <td>
+                <img src="https://i.pinimg.com/736x/a5/82/2f/a5822fc60d5e42b31a88649e1a90e21d.jpg" alt="Gaming Mouse">
+                <br><strong>Gaming Mouse</strong>
+                <p class="price">₱1,500</p>
             </td>
         </tr>
 
         <tr>
             <td>
-                <img src="https://i.pinimg.com/736x/cf/6c/bd/cf6cbdfef030a8ce03702818d36ece19.jpg"><br>
-                <b>AI Learning Bot</b><br>
-                <span class="price-text">₱12,000</span>
+                <img src="https://i.pinimg.com/1200x/8f/31/79/8f31796882abc90722705eaa33de0050.jpg" alt="Keyboard">
+                <br><strong>Mechanical Keyboard</strong>
+                <p class="price">₱3,200</p>
             </td>
             <td>
-                <img src="https://i.pinimg.com/736x/11/1b/fa/111bfac99a261e36fadcc167be1667e0.jpg"><br>
-                <b>Bluetooth Speaker</b><br>
-                <span class="price-text">₱2,200</span>
+                <img src="https://i.pinimg.com/1200x/f9/81/c5/f981c58b0b281bf6cd4e516be7076f77.jpg" alt="VR">
+                <br><strong>VR Headset</strong>
+                <p class="price">₱8,500</p>
             </td>
             <td>
-                <img src="https://i.pinimg.com/736x/69/50/82/695082caa33e275191ef8ee05bd9b316.jpg"><br>
-                <b>Gaming Mouse</b><br>
-                <span class="price-text">₱1,500</span>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <img src="https://i.pinimg.com/1200x/8f/31/79/8f31796882abc90722705eaa33de0050.jpg"><br>
-                <b>Mechanical Keyboard</b><br>
-                <span class="price-text">₱3,200</span>
-            </td>
-            <td>
-                <img src="https://i.pinimg.com/1200x/f9/81/c5/f981c58b0b281bf6cd4e516be7076f77.jpg"><br>
-                <b>VR Headset</b><br>
-                <span class="price-text">₱8,500</span>
-            </td>
-            <td>
-                <img src="https://i.pinimg.com/736x/9e/ea/c5/9eeac5a4783616bbdbf89c14a8065450.jpg"><br>
-                <b>Action Camera</b><br>
-                <span class="price-text">₱4,800</span>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <img src="https://i.pinimg.com/736x/c8/35/49/c83549eb6606087230f664e225218cc1.jpg"><br>
-                <b>Smart Desk Lamp</b><br>
-                <span class="price-text">₱1,200</span>
-            </td>
-            <td>
-                <img src="https://i.pinimg.com/1200x/86/5e/43/865e43ab144c19e126bf2d0dc1bfbda4.jpg"><br>
-                <b>Power Bank 20k</b><br>
-                <span class="price-text">₱1,800</span>
-            </td>
-            <td>
-                <img src="https://i.pinimg.com/736x/c8/1d/23/c81d239c187cf0a2a8663a760972d20e.jpg"><br>
-                <b>Portable USB Fan</b><br>
-                <span class="price-text">₱600</span>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <img src="https://i.pinimg.com/736x/da/c1/26/dac1268a264794ae179ab2a50dfb5dde.jpg"><br>
-                <b>Graphics Tablet</b><br>
-                <span class="price-text">₱6,500</span>
-            </td>
-            <td>
-                <img src="https://i.pinimg.com/1200x/95/f3/08/95f30837908319da00b0f33ee4d0df59.jpg"><br>
-                <b>USB Microphone</b><br>
-                <span class="price-text">₱3,900</span>
-            </td>
-            <td>
-                <img src="https://i.pinimg.com/1200x/e1/29/15/e12915f12b6b85e0f7e28f5bd202c9e8.jpg"><br>
-                <b>Wi-Fi Router</b><br>
-                <span class="price-text">₱2,500</span>
+                <img src="https://i.pinimg.com/736x/9e/ea/c5/9eeac5a4783616bbdbf89c14a8065450.jpg" alt="Camera">
+                <br><strong>Action Camera</strong>
+                <p class="price">₱4,800</p>
             </td>
         </tr>
     </table>
-
-    <br>
-    <p><i>Note: Prices are subject to change.</i></p>
 </div>
 
 <footer>
-    <p>Project by: Jiro Sanchez | 2026 | Teacher: Sir Lawrence</p>
+    <p>Jiro Sanchez | ACT-1D | ICT Project 2026</p>
 </footer>
 
 </body>
